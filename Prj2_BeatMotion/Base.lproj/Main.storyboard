@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,36 +16,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NZ-Kp-8Gz">
-                                <rect key="frame" x="114" y="634" width="187" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NZ-Kp-8Gz">
+                                <rect key="frame" x="75" y="770" width="264" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Play"/>
                                 <connections>
                                     <action selector="playBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BW2-Rg-7A3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beat Motion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoq-vg-0OQ">
-                                <rect key="frame" x="119" y="65" width="176" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beat Motion" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoq-vg-0OQ">
+                                <rect key="frame" x="75" y="54" width="264" height="40.666666666666657"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rotation" translatesAutoresizingMaskIntoConstraints="NO" id="zKS-8r-tIY">
-                                <rect key="frame" x="20" y="264" width="366" height="339"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play the song. Adjust pitch and speed by rate of rotation! Rotation in the X direction for pitch, roation in Y for speed." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BEX-Ui-7lp">
-                                <rect key="frame" x="61" y="136" width="293" height="109"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
-                                <color key="textColor" red="0.21355987009999999" green="0.040174981409999998" blue="0.37947837750000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play the song. Adjust pitch and speed by rate of rotation! Rotation in the X direction for pitch, roation in Y for speed." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l1-yt-yu0">
+                                <rect key="frame" x="25" y="679" width="364" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Rotation" translatesAutoresizingMaskIntoConstraints="NO" id="zKS-8r-tIY">
+                                <rect key="frame" x="111" y="121" width="193" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="Qv3-Re-w2z"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zoq-vg-0OQ" secondAttribute="trailing" constant="75" id="21x-5s-bzT"/>
+                            <constraint firstItem="zoq-vg-0OQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="448-zd-Wtm"/>
+                            <constraint firstItem="zKS-8r-tIY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="111" id="4Iw-Zi-eET"/>
+                            <constraint firstItem="zKS-8r-tIY" firstAttribute="top" secondItem="zoq-vg-0OQ" secondAttribute="bottom" constant="26.333333333333343" id="GiL-rA-Jau"/>
+                            <constraint firstItem="3l1-yt-yu0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="JKR-UF-ABT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0NZ-Kp-8Gz" secondAttribute="bottom" constant="50" id="Ymm-v0-t6B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3l1-yt-yu0" secondAttribute="trailing" constant="25" id="eUJ-C5-7E5"/>
+                            <constraint firstItem="0NZ-Kp-8Gz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="fkY-Dg-evv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0NZ-Kp-8Gz" secondAttribute="trailing" constant="75" id="jXd-jC-GPb"/>
+                            <constraint firstItem="zoq-vg-0OQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="lDd-Y9-YCJ"/>
+                            <constraint firstItem="zKS-8r-tIY" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="s7z-Tr-cD8"/>
+                            <constraint firstItem="0NZ-Kp-8Gz" firstAttribute="top" secondItem="3l1-yt-yu0" secondAttribute="bottom" constant="30" id="xcH-SN-Jpi"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="PlayBTN" destination="0NZ-Kp-8Gz" id="hm1-7B-sog"/>
@@ -58,9 +71,6 @@
     </scenes>
     <resources>
         <image name="Rotation" width="778" height="927"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
