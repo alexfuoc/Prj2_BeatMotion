@@ -14,6 +14,7 @@
 		1F836BF1262F7BFC00F79C5C /* Prj2_BeatMotion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F836BEF262F7BFC00F79C5C /* Prj2_BeatMotion.xcdatamodeld */; };
 		1F836BF3262F7BFE00F79C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F836BF2262F7BFE00F79C5C /* Assets.xcassets */; };
 		1F836BF6262F7BFE00F79C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F836BF4262F7BFE00F79C5C /* LaunchScreen.storyboard */; };
+		1F836C032640903400F79C5C /* waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F836C022640903400F79C5C /* waves.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F836BF2262F7BFE00F79C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F836BF5262F7BFE00F79C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F836BF7262F7BFE00F79C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F836C022640903400F79C5C /* waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waves.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				1F836BE6262F7BFC00F79C5C /* AppDelegate.swift */,
+				1F836C022640903400F79C5C /* waves.mp3 */,
 				1F836BE8262F7BFC00F79C5C /* SceneDelegate.swift */,
 				1F836BEA262F7BFC00F79C5C /* ViewController.swift */,
 				1F836BEC262F7BFC00F79C5C /* Main.storyboard */,
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F836BF6262F7BFE00F79C5C /* LaunchScreen.storyboard in Resources */,
+				1F836C032640903400F79C5C /* waves.mp3 in Resources */,
 				1F836BF3262F7BFE00F79C5C /* Assets.xcassets in Resources */,
 				1F836BEE262F7BFC00F79C5C /* Main.storyboard in Resources */,
 			);
