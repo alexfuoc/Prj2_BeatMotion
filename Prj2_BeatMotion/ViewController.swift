@@ -86,7 +86,6 @@ class ViewController: UIViewController {
              if let data = self.motion.gyroData {
                 let x = data.rotationRate.x
                 let y = data.rotationRate.y
-                let z = data.rotationRate.z
 
                 // Use the gyroscope data in your app.
                 self.changeSpeed(y: y)
